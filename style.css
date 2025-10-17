@@ -802,3 +802,7 @@ ul {
 .content-wrap {
     padding: 10px;
 }
+.new-style p{
+    font-size: 14px;
+    font-weight: 600;
+}
