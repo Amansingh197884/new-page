@@ -1,6 +1,5 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&family=Redressed&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&family=Redressed&display=swap');
 
 .nav-link{
   font-family: "Redressed", cursive;
@@ -24,7 +23,11 @@ button
   font-weight: 400;
   font-style: normal;  font-weight: 400;
 }
-
+input{
+ font-family: "Redressed", cursive !important;
+  font-weight: 500; 
+  font-style: normal;  font-weight: 400;
+}
 
         :root {
             --orange-:#F26722;
@@ -79,10 +82,12 @@ button
     transform: translateY(-50%);
 
     /* ak  */
-
-    background-color: #fff;
+    backdrop-filter: blur(15px);
+background: transparent rgba(0, 0, 0, 0.05);
+    /* background-color: #fff; */
     margin-top: 0%;
-    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1607843137);
+    /* box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1607843137); */
+    box-shadow: 0px 0px 16px 0px rgba(0, 0, 0, 0.5);
     border: 1px solid #BCBCBC;
     padding: 12px 20px !important;
     padding-bottom: 20px !important;
@@ -257,19 +262,19 @@ button
     border-radius: 2px;
 }
 
-input {
+/* input {
     border: 1px solid #4A5373 !important;
-    font-size: 14px !important;
+    font-size: 30px !important;
     color: #343634;
     padding: 10px 15px;
     background: #fff;
     border-radius: 2px;
-}
+} */
 
 input {
     border: 1px solid #4A5373 !important;
-    font-size: 14px !important;
-    color: #343634;
+    font-size: 20px !important;
+    color: #fefffe;
     padding: 15px 15px;
     border: 1px solid #4A5373;
     border-radius: 2px !important;
@@ -834,4 +839,56 @@ ul {
     .hero-section{
                 background-image:linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.3)), url('https://i.pinimg.com/736x/d1/4c/55/d14c552a6b10f1811eb120e4747a27bd.jpg');
     }
+}
+/* new  */
+
+
+.inputBox {
+    position: relative;
+    width: 100%;
+    margin-top: 10px;
+}
+
+ .inputBox input,
+ .inputBox textarea {
+    padding: 5px 0px;
+    width: 100%;
+    font-size: 16px;
+    margin: 10px 0px;
+    border: none !important;
+    border-bottom: 2px solid #ffffff !important;
+    outline: none !important;
+    resize: none !important;
+}
+
+.inputBox span {
+    position: absolute;
+    left: 0;
+    padding: 5px 0px;
+    font-size: 20px;
+    margin: 10px 0px;
+    pointer-events: none;
+    transition: 0.5s;
+    color: #fff;
+
+}
+
+.inputBox input:focus~span,
+.inputBox input:valid~span,
+.inputBox textarea:focus~span,
+.inputBox textarea:valid~span {
+    color: #e91e63;
+    font-size: 12px;
+    transform: translateY(-20px);
+}
+
+.inputBox input[type="submit"] {
+    width: 100px;
+    background-color: #00bcd4;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 18px;
+
 }
