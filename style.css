@@ -23,6 +23,7 @@
             padding: 120px 1% !important;
               position: relative;
     background-image: url(jiit_banner.webp);
+
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -805,4 +806,9 @@ ul {
 .new-style p{
     font-size: 14px;
     font-weight: 600;
+}
+@media screen and (max-width:990px){
+    .hero-section{
+                background-image:linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.3)), url('https://i.pinimg.com/736x/d1/4c/55/d14c552a6b10f1811eb120e4747a27bd.jpg');
+    }
 }
