@@ -1,7 +1,29 @@
-.nav-font{
 
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&family=Redressed&display=swap');
+
+
+.nav-link{
+  font-family: "Redressed", cursive;
+  font-weight: 400;
+  font-style: normal;  font-weight: 400;
+  font-size: 20px !important;
 }
-@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap');
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a,
+span,
+p,
+button
+
+{
+  font-family: "Redressed", cursive !important;
+  font-weight: 400;
+  font-style: normal;  font-weight: 400;
+}
 
 
         :root {
@@ -15,7 +37,6 @@
         }
         
         body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             background-color: #f8fafc;
             color: var(--dark-text);
         }
@@ -286,19 +307,20 @@ select {
         .mba-heading {
             color: var(--primary-blue);
             font-weight: 700;
-            font-size: 2.8rem;
+            font-size: 4.4rem;
             margin-bottom: 10px;
-             font-family: "Berkshire Swash", serif;
-  font-weight: bold;
-        }
+  font-family: "Redressed", cursive;
+  font-weight: 400;
+  font-style: normal;        }
         
         .mba-subheading {
             color: var(--orange-);
             font-weight: 600;
             font-size: 1.3rem;
             margin-bottom: 25px;
-                         font-family: "Berkshire Swash", serif;
-
+ font-family: "Redressed", cursive;
+  font-weight: 400;
+  font-style: normal; 
         }
         
         .features-list {
@@ -312,8 +334,9 @@ select {
             padding-left: 30px;
             position: relative;
             color: var(--dark-text);
-                         font-family: "Berkshire Swash", serif;
-
+ font-family: "Redressed", cursive;
+  font-weight: 400;
+  font-style: normal; 
         }
         
         .features-list li:before {
