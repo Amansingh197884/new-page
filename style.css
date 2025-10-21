@@ -28,7 +28,11 @@ input{
   font-weight: 500; 
   font-style: normal;  font-weight: 400;
 }
-
+.chek-text{
+     font-family: "Redressed", cursive !important;
+ /* font-size: 10px; */
+ letter-spacing: 0.7px;
+}
         :root {
             --orange-:#F26722;
             --primary-blue: #1a3a8f;
@@ -46,7 +50,7 @@ input{
         .hero-section{
             padding: 120px 1% !important;
               position: relative;
-    background-image: url(jiit_banner.webp);
+   background-image:linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.3)),url(jiit_banner.webp);
 
     background-repeat: no-repeat;
     background-size: cover;
@@ -67,7 +71,9 @@ input{
 .features-list li{
     color: #fff !important;
 }
-
+.nav-link:hover{
+    color: #F26722 !important;
+}
 /* --- Form Box Styling --- */
 .form-box {
 
@@ -125,6 +131,8 @@ background: transparent rgba(0, 0, 0, 0.05);
     color: white;
     font-weight: bold;
     padding: 12px;
+    border-radius: 5px;
+    letter-spacing: 1px;
 }
 
 .application-status {
@@ -877,7 +885,7 @@ ul {
 .inputBox input:valid~span,
 .inputBox textarea:focus~span,
 .inputBox textarea:valid~span {
-    color: #e91e63;
+    color: #F26722;
     font-size: 12px;
     transform: translateY(-20px);
 }
