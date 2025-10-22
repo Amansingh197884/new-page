@@ -979,8 +979,9 @@ ul {
             /* background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(26, 42, 60, 1) 50%, rgba(0,0,0,1) 100%); */
             color: #ffffff; /* White text color */
             padding: 20px 0;
-            text-align: center;
-            background-color: #F26722;
+            text-align: center;padding: 20px;
+            background-color: #070706;
+            margin-top: 50px;
         }
         .footer-slogan {
             font-size: 1rem;
