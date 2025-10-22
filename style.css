@@ -912,3 +912,92 @@ ul {
     font-size: 18px;
 
 }
+
+.feature-boxin {
+  transition: all 0.3s ease-in-out;
+      background-color: #f1cc9822 !important;
+      border-radius: 0 !important;
+      padding: 10px !important;
+
+}
+.feature-boxin i{
+    color: rgb(219, 177, 114) !important;
+        background-color: #f1cc9822;
+        /* padding: 10px 10px; */
+        border-radius: 30%;
+        padding: 10px;
+
+}
+.feature-boxin:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 16px rgba(0,0,0,0.15);
+}
+  .choose-section {
+      text-align: center;
+      padding: 80px 20px;
+    }
+    .choose-section h2 {
+      font-weight: 700;
+      color: #212529;
+    }
+    .choose-section h2 span {
+      color: #2d3e8b;
+    }
+     .choose-section .feature-card {
+      background: #fff;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+      padding: 30px 20px;
+      transition: all 0.3s ease;
+      height: 100%;
+    }
+     .choose-section .feature-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+    }
+     .choose-section .feature-card i {
+      font-size: 30px;
+      color: #0d3b66;
+      margin-bottom: 15px;
+    }
+    .explore-btn {
+      background-color: #e63946;
+      color: #fff;
+      border: none;
+      padding: 10px 30px;
+      border-radius: 8px;
+      margin-top: 40px;
+      transition: background 0.3s ease;
+    }
+    .explore-btn:hover {
+      background-color: #c62828;
+    }
+  /* footer  */
+
+  .custom-footer {
+            /* Dark background gradient similar to the image */
+            /* background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(26, 42, 60, 1) 50%, rgba(0,0,0,1) 100%); */
+            color: #000000; /* White text color */
+            padding: 20px 0;
+            text-align: center;
+            background-color: #F26722;
+        }
+        .footer-slogan {
+            font-size: 1rem;
+            margin-bottom: 10px;
+        }
+        .footer-points {
+            font-size: 0.9rem;
+            margin-bottom: 15px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .footer-points span {
+            margin: 0 5px; 
+            padding: 5px 0;
+            line-height: 1.5; }
+        .footer-copyright {
+            font-size: 0.8rem;
+            opacity: 0.8; 
+        }
