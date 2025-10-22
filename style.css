@@ -514,6 +514,17 @@ select {
     cursor: default;
 }
 
+    @media screen and (max-width:990px){
+        .icon-new{
+            text-align: center;
+
+        }
+         .icon-new .feature-icon{
+            font-size: 3rem !important;
+            
+        }
+    }
+
 .icon-new .feature-box:hover {
     transform: translateY(-5px);
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05);
@@ -522,7 +533,7 @@ select {
 }
 
 .icon-new .feature-icon {
-    font-size: 1.5rem;
+    font-size: 2.5rem;
     color: #57585a;
     margin-bottom: 1rem;
     /* display: block; */
@@ -938,7 +949,8 @@ ul {
       margin-bottom: 15px;
     }
     .explore-btn {
-      background-color: #e63946;
+      background-color: #F26722;
+      
       color: #fff;
       border: none;
       padding: 10px 30px;
