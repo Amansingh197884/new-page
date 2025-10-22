@@ -1,6 +1,5 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&family=Redressed&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&family=Redressed&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
 .nav-link{
   font-family: "Redressed", cursive;
   font-weight: 400;
@@ -42,13 +41,22 @@ input{
             --light-text: #666666;
             --border-color: #d1d5db;
         }
-        
+        .all-text p{
+              font-family: "Red Hat Display", sans-serif !important;
+  font-optical-sizing: auto;
+
+        }
+     .img-wrap img{
+        height: 200px !important;
+        width: 400px;
+     }        
+            
         body {
             background-color: #f8fafc;
             color: var(--dark-text);
         }
         .hero-section{
-            padding: 120px 1% !important;
+            padding: 120px 0% !important;
               position: relative;
    background-image:linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.3)),url(jiit_banner.webp);
 
@@ -540,7 +548,8 @@ select {
     font-size: 1.5rem;
     color: #57585a;
     margin-bottom: 1rem;
-    display: block;
+    /* display: block; */
+    text-align: center;
 }
 
 .col-feature {
@@ -735,7 +744,7 @@ select {
 }
 
 ul {
-    padding-left: 0 !important;
+    padding-left: 0px !important;
 }
 
 
@@ -825,11 +834,14 @@ ul {
     }
 
 }
-
+.para-img img{
+    height: 500px !important;
+    width: 100%;
+}
 
 /* new  c ndsc  */
 .testi-wrap {
-    background-color: #7991de2b;
+    background-color: #f1cc9822;
     color: #000000;
     /* padding: 10px; */
     border: 1.5px solid #3b3b3c4a;
