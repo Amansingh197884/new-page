@@ -350,7 +350,7 @@ select {
             background-color: var(--orange-);
             font-weight: 600;
             color: #fff;
-            padding: 10px 20px;
+            /* padding: 0px 20px; */
             border-radius: 6px;
             margin-bottom: 15px;
             transition: all 0.3s;
@@ -927,6 +927,7 @@ ul {
     .choose-section h2 {
       font-weight: 700;
       color: #212529;
+      font-size: 2rem;
     }
     .choose-section h2 span {
       color: #2d3e8b;
