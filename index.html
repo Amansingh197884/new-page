@@ -838,7 +838,7 @@
         <!-- right image -->
         <div class="col-lg-5 text-center new">
           <img src="images/banner-pic.webp" alt="Counselor representative"
-            class="right-img">
+            class="right-img img-fluid">
         </div>
       </div>
     </div>
@@ -928,7 +928,9 @@
               </div>
 
               <div class="text-center mt-4">
-                <button type="submit" class="btn btn-download">Download Now</button>
+                <!-- <button type="submit" class="btn btn-download">Download Now</button> -->
+                      <button class="explore-btn">Download Now</button>
+
               </div>
             </form>
           </div>
@@ -941,7 +943,84 @@
 
 
 
+  <!-- popup form  -->
 
+  <div class="modal fade popup-form" id="instantApplyModal" tabindex="-1" aria-labelledby="instantApplyModalLabel"
+    aria-hidden="true" data-bs-backdrop="static" data-bs-keyboard="false">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+
+        <div class="modal-header modal-header-custom p-3">
+          <div class="modal-title modal-title-custom" id="instantApplyModalLabel">
+            <p class="mb-0">Admissions end 15th October.</p>
+            <p class="mb-0">Limited Seats Available, Apply Now!</p>
+          </div>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+
+        <div class="modal-body">
+          <form>
+            <div class="mb-3">
+              <input type="text" class="form-control p-2" placeholder="Full Name" required
+                style="border-radius: 0 !important; color: rgba(173, 171, 171, 0.342) !important; border: 1.5px solid  rgba(151, 149, 149, 0.409) !important;">
+            </div>
+
+            <div class="mb-3">
+              <input type="email" class="form-control p-2 fs-40" placeholder="Email Id" required
+                style="border-radius: 0 !important; color: rgba(173, 171, 171, 0.342) !important; border: 1.5px solid  rgba(151, 149, 149, 0.409) !important;">
+            </div>
+
+            <div class="mb-3">
+              <input type="tel" class="form-control p-2" placeholder="Mobile Number" required
+                style="border-radius: 0 !important; color: rgba(173, 171, 171, 0.342) !important; border: 1.5px solid  rgba(151, 149, 149, 0.409) !important;">
+            </div>
+
+            <div class="mb-3">
+              <select class="form-select p-2" aria-label="Select Course" required
+                style="border-radius: 0 !important; color: rgb(14, 13, 13) !important; border: 1.5px solid  rgba(151, 149, 149, 0.409) !important;">
+                <option selected>Select Course</option>
+                <option value="1">MBA</option>
+                <option value="2">BCA</option>
+                <option value="3">B.Tech</option>
+              </select>
+            </div>
+
+            <div class="mb-3">
+              <select class="form-select p-2" aria-label="Select Highest Qualification" required
+                style="border-radius: 0 !important; color: rgba(3, 3, 3, 0.959) !important; border: 1.5px solid  rgba(151, 149, 149, 0.409) !important;">
+                <option selected>Select Highest Qualification</option>
+                <option value="1">Graduation</option>
+                <option value="2">Post-Graduation</option>
+                <option value="3">HSC/12th</option>
+              </select>
+            </div>
+
+            <div class="mb-3 form-check">
+              <input type="checkbox" class="form-check-input" id="communicationConsent" required>
+              <label class="form-check-label" for="communicationConsent"
+                style="font-size: 1rem; color: black !important;">
+                By clicking on submit I allow Andhra University to send program communication on email / sms / WhatsApp
+                etc.
+              </label>
+            </div>
+
+            <!-- <div class="d-grid gap-2 pt-2 align-items-center txet-center justify-content-center">
+              <button type="submit" class="btn btn-lg btn-submit-custom" style="border-radius: 0 !important;">
+                Submit
+              </button>
+            </div> -->
+             <div class="d-grid gap-2  new">
+            <button class="btn btn-brochure me-md-2">  Submit</button>
+            <!-- <button class="btn btn-counselling">Get a Free Career Counselling Session</button> -->
+          </div>
+          </form>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- BACK TO TOP -->
 
 
 
@@ -969,7 +1048,17 @@
 
   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
   <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      var myModal = document.getElementById('instantApplyModal');
 
+      if (myModal) {
+        var bsModal = new bootstrap.Modal(myModal);
+
+        bsModal.show();
+      }
+    });
+  </script>
 
   </script>
   <script src="https://unpkg.com/aos@next/dist/aos.js"></script>

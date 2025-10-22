@@ -977,7 +977,7 @@ ul {
   .custom-footer {
             /* Dark background gradient similar to the image */
             /* background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(26, 42, 60, 1) 50%, rgba(0,0,0,1) 100%); */
-            color: #000000; /* White text color */
+            color: #ffffff; /* White text color */
             padding: 20px 0;
             text-align: center;
             background-color: #F26722;
