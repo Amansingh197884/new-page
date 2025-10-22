@@ -1,38 +1,15 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&family=Redressed&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
-.nav-link{
-  font-family: "Redressed", cursive;
-  font-weight: 400;
-  font-style: normal;  font-weight: 400;
-  font-size: 20px !important;
-}
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-a,
-span,
-p,
-button
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400..900;1,400..900&display=swap');
 
-{
-  font-family: "Redressed", cursive !important;
-  font-weight: 400;
-  font-style: normal;  font-weight: 400;
+
+body{
+    font-family: "Alegreya", serif !important;
+  font-optical-sizing: auto;
+
 }
-input{
- font-family: "Redressed", cursive !important;
-  font-weight: 500; 
-  font-style: normal;  font-weight: 400;
-}
-.chek-text{
-     font-family: "Redressed", cursive !important;
- /* font-size: 10px; */
- letter-spacing: 0.7px;
-}
-        :root {
+
+
+:root {
             --orange-:#F26722;
             --primary-blue: #1a3a8f;
             --accent-blue: #2d55b4;
@@ -41,19 +18,19 @@ input{
             --light-text: #666666;
             --border-color: #d1d5db;
         }
-        .all-text p{
-              font-family: "Red Hat Display", sans-serif !important;
-  font-optical-sizing: auto;
+ .all-text p{
+           
 
         }
-     .img-wrap img{
+ .img-wrap img{
         height: 200px !important;
         width: 400px;
      }        
             
-        body {
+ body {
             background-color: #f8fafc;
             color: var(--dark-text);
+            overflow-x: hidden;
         }
         .hero-section{
             padding: 120px 0% !important;
@@ -66,8 +43,8 @@ input{
         }
         .model-image {
     position: absolute;
-    bottom: -9%;
-    left: -250px;
+    bottom: -8%;
+    left: -220px;
     transform: translateX(-5%);
     height: 100%;
     width: auto;
@@ -330,7 +307,7 @@ select {
             font-weight: 700;
             font-size: 4.4rem;
             margin-bottom: 10px;
-  font-family: "Redressed", cursive;
+  /* font-family: "Redressed", cursive; */
   font-weight: 400;
   font-style: normal;        }
         
@@ -339,7 +316,7 @@ select {
             font-weight: 600;
             font-size: 1.3rem;
             margin-bottom: 25px;
- font-family: "Redressed", cursive;
+ /* font-family: "Redressed", cursive; */
   font-weight: 400;
   font-style: normal; 
         }
@@ -355,7 +332,7 @@ select {
             padding-left: 30px;
             position: relative;
             color: var(--dark-text);
- font-family: "Redressed", cursive;
+ /* font-family: "Redressed", cursive; */
   font-weight: 400;
   font-style: normal; 
         }
