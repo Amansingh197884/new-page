@@ -997,19 +997,19 @@ ul {
 
         
     .programme-overview {
-      padding: 60px 15px;
+      /* padding: 60px 15px; */
       text-align: center;
     }
 
     .programme-overview h2 {
       font-weight: 600;
-      font-size: 28px;
+      font-size: 38px;
       margin-bottom: 10px;
       color: #222;
     }
 
     .programme-overview .underline {
-      width: 60px;
+      width: 100px;
       height: 3px;
       background-color: #ff6b00;
       margin: 10px auto 30px;
@@ -1109,3 +1109,72 @@ ul {
         margin-bottom: 25px;
       }
     }
+    /* new card  */
+    .emi-section {
+  background: #fff;
+}
+
+.icon-circle {
+  width: 70px;
+  height: 70px;
+  background-color: #f1e2ccf2;
+  color: #F26722;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 28px;
+  transition: all 0.3s ease;
+}
+
+.info-card {
+  border-radius: 15px;
+  background-color: #ffffff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.08);
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.info-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+.info-card:hover .icon-circle {
+  background-color: #F26722;
+  color: #fff;
+  transform: scale(1.1);
+}
+
+.btn-danger {
+  background-color: #e74c3c;
+  border: none;
+  transition: 0.3s;
+}
+.btn-danger:hover {
+  background-color: #c0392b;
+}
+
+/* === ANIMATION EFFECTS === */
+.animate-up {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: all 0.8s ease-out;
+}
+.animate-left {
+  opacity: 0;
+  transform: translateX(-50px);
+  transition: all 0.8s ease-out;
+}
+.visible {
+  opacity: 1 !important;
+  transform: translate(0) !important;
+}
+.delay-1 { transition-delay: 0.2s; }
+.delay-2 { transition-delay: 0.4s; }
+.delay-3 { transition-delay: 0.6s; }
+
+@media (max-width: 767px) {
+  .emi-section {
+    text-align: center;
+  }
+}
