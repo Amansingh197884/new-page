@@ -961,12 +961,17 @@ ul {
      .choose-section .feature-card:hover {
       transform: translateY(-5px);
       box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+      background-color: #F26722;
+      color: #fff;
     }
      .choose-section .feature-card i {
       font-size: 30px;
       color: #0d3b66;
       margin-bottom: 15px;
     }
+     .choose-section .feature-card:hover i{
+        color: #fff;
+     }
     .explore-btn {
       background-color: #F26722;
       
