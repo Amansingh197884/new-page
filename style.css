@@ -914,11 +914,29 @@ ul {
         /* padding: 10px 10px; */
         border-radius: 30%;
         padding: 10px;
+        transition: 0.6s ease-in-out;
+
+}
+.feature-boxin:hover i{
+    color: rgb(0, 0, 0) !important;
+        background-color: #ffffff;
+        /* padding: 10px 10px; */
+        border-radius: 30%;
+        padding: 10px;
+        transition: 0.6s ease-in-out;
 
 }
 .feature-boxin:hover {
   transform: translateY(-5px);
   box-shadow: 0 6px 16px rgba(0,0,0,0.15);
+  background-color: #f18650 !important;
+  color: #fff !important;
+}
+.feature-boxin:hover p{
+    color: #fff !important;
+}
+.feature-boxin:hover li{
+    color: #fff !important;
 }
   .choose-section {
       text-align: center;
@@ -998,7 +1016,7 @@ ul {
         
     .programme-overview {
       /* padding: 60px 15px; */
-      text-align: center;
+      /* text-align: center; */
     }
 
     .programme-overview h2 {
@@ -1178,3 +1196,74 @@ ul {
     text-align: center;
   }
 }
+
+/* new  */
+
+    .all-section {
+      padding: 60px 0;
+        font-family: 'Poppins', sans-serif;
+      color: #444444;
+      background-color: #fff;
+      line-height: 25px;
+    }
+
+   .all-section .mba-heading {
+      font-weight: 600;
+      font-size: 28px;
+      color: #212529;
+      margin-bottom: 20px;
+    }
+
+   .all-section .mba-section p {
+      color: #444;
+      font-size: 16px;
+      line-height: 1.6;
+      margin-bottom: 15px;
+    }
+
+   .all-section .btn-yellow {
+      background-color: #ffc107;
+      color: #000;
+      border: none;
+      font-weight: 500;
+    }
+
+   .all-section .btn-yellow:hover {
+      background-color: #e0a800;
+      color: #fff;
+    }
+
+    .all-section.btn-whatsapp {
+      background-color: #000;
+      color: #fff;
+      border: none;
+      font-weight: 500;
+    }
+
+   .all-section .btn-whatsapp:hover {
+      background-color: #25D366;
+      color: #fff;
+    }
+
+   .all-section .img-wrapper img {
+      border-radius: 10px;
+      width: 100%;
+      height: 500px;
+      object-fit: cover;
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s ease;
+    }
+
+ .all-section   .img-wrapper img:hover {
+      /* transform: scale(1.05); */
+    }
+
+    @media (max-width: 768px) {
+    .all-section  .mba-heading {
+        font-size: 24px;
+      }
+
+     .all-section .mba-section p {
+        font-size: 15px;
+      }
+    }
