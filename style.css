@@ -1537,3 +1537,119 @@ background: linear-gradient(90deg, #F26722 0%, #FF7B00 100%);    }
             border-radius: 20px;
             border: none;
         }
+
+        /* start new css  */
+             .program-card {
+      max-width: 420px;
+      margin: auto;
+      border-radius: 16px;
+      overflow: hidden;
+      box-shadow: 0 8px 28px rgba(15,23,42,0.08);
+      background: #fff;
+      transition: all 0.3s ease;
+    }
+
+    .program-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 16px 35px rgba(15,23,42,0.12);
+    }
+
+    .card-img-top {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+    }
+
+    .badge-top {
+      position: absolute;
+      top: 12px;
+      padding: 8px 14px;
+      border-radius: 999px;
+      font-weight: 600;
+      font-size: 0.85rem;
+      box-shadow: 0 6px 18px rgba(15,23,42,0.08);
+    }
+
+    .badge-left { left: 14px; background: #FFD64D; color: #111; }
+    .badge-right { right: 14px; background: #DCCFF8; color: #2b2250; }
+
+    .title-strip {
+      background: #d7cfff;
+      padding: 10px 16px;
+      font-size: 0.95rem;
+      color: #2a2a5a;
+      letter-spacing: 0.08em;
+    }
+
+    .program-body {
+      padding: 18px;
+    }
+
+    .program-title {
+      font-size: 1.25rem;
+      font-weight: 700;
+      color: #0b1724;
+      margin-bottom: 12px;
+    }
+
+    .meta-row {
+      display: flex;
+      gap: 18px;
+      flex-wrap: wrap;
+      align-items: center;
+      margin-bottom: 12px;
+      color: #333;
+    }
+
+    .meta-item {
+      display: flex;
+      gap: 8px;
+      align-items: center;
+      font-size: 0.95rem;
+    }
+
+    .notice {
+      font-weight: 600;
+      color: #112244;
+      margin: 14px 0;
+    }
+
+    .actions {
+      display: flex;
+      gap: 18px;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+
+    .course .btn-brochure {
+      background: #F26722;
+      color: #fff;
+      border-radius: 999px;
+      padding: 10px 18px;
+      box-shadow: 0 6px 18px rgba(242, 103, 34, 0.2);
+      border: none;
+      font-weight: 700;
+      transition: all 0.2s ease;
+    }
+
+    .course .btn-brochure:hover {
+      background: #e35a19;
+    }
+
+    .course .btn-link {
+      color: #1f2b4a;
+      text-decoration: underline;
+      font-weight: 600;
+      background: none;
+      border: none;
+      padding: 0;
+      font-size: 0.98rem;
+    }
+
+    @media (max-width: 480px) {
+      .program-card { max-width: 100%; border-radius: 12px; }
+      .card-img-top { height: 150px; }
+      .program-title { font-size: 1.1rem; }
+      .badge-top { padding: 6px 10px; font-size: 0.8rem; }
+    }
+   
