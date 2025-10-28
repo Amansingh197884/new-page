@@ -72,33 +72,33 @@
           <div class="offcanvas-body justify-content-end  ayush">
             <ul id="nav-small" class="navbar-nav justify-content-end align-items-center fs-8  flex-grow-1 pe-1  ayush">
               <li class="nav-item mx-2 ">
-                <a class="nav-link active " aria-current="page" href="index.html">Home</a>
+                <a class="nav-link active " aria-current="page" href="#home">Home</a>
               </li>
 
 
 
               <li class="nav-item mx-2">
-                <a class="nav-link text-gray-900 p-2" href="about.html">About Us</a>
+                <a class="nav-link text-gray-900 p-2" href="#lead">About Us</a>
               </li>
 
-              <li class="nav-item mx-2">
+              <!-- <li class="nav-item mx-2">
                 <a class="nav-link text-gray-900 p-2" href="location.html">location</a>
+              </li> -->
+
+              <li class="nav-item mx-2">
+                <a class="nav-link text-gray-900 p-2" href="#Scholarships">Scholarships</a>
               </li>
 
               <li class="nav-item mx-2">
-                <a class="nav-link text-gray-900 p-2" href="blog.html">Student Corner</a>
+                <a class="nav-link text-gray-900 p-2" href="#program">Programers</a>
               </li>
 
               <li class="nav-item mx-2">
-                <a class="nav-link text-gray-900 p-2" href="contact.html">Programers</a>
+                <a class="nav-link text-gray-900 p-2" href="#Admission">Admission</a>
               </li>
 
               <li class="nav-item mx-2">
-                <a class="nav-link text-gray-900 p-2" href="contact.html">Admission</a>
-              </li>
-
-              <li class="nav-item mx-2">
-                <a class="nav-link text-gray-900 p-2" href="contact.html">Recognition</a>
+                <a class="nav-link text-gray-900 p-2" href="#Recognition">Recognition</a>
               </li>
 
               <li class="nav-item mx-2">
@@ -115,7 +115,7 @@
 
   <!-- HEADER  END-->
   <!-- hero section start   -->
-  <div class="container-fluid hero-section" style="padding-bottom: 40px !important;">
+  <div class="container-fluid hero-section" style="padding-bottom: 40px !important;" id="home">
     <div class="row">
       <div class="col-lg-6">
 
@@ -131,7 +131,8 @@
           </ul>
 
           <div class="d-grid gap-2 d-md-block new">
-            <button class="btn btn-brochure me-md-2">Download Brochure</button>
+            <button class="btn btn-brochure me-md-2"  data-bs-toggle="modal" data-bs-target="#instantApplyModal"
+>Download Brochure</button>
             <!-- <button class="btn btn-counselling">Get a Free Career Counselling Session</button> -->
           </div>
         </div>
@@ -234,7 +235,7 @@
   </div>
   <!-- HEADER  -->
 <!-- new section start  -->
-<div class="container programme-overview">
+<div class="container programme-overview" id="program">
    <h2 class="text-center">Programme Overview</h2>
   <div class="underline"></div>
   <p>The Online MBA Programme from Manipal University, will help you sharpen your skills and abilities and make you industry-ready with rigorous pedagogy, top-tier faculty, mentors, case studies and much more.</p>
@@ -281,7 +282,7 @@
     </div>
     </div>
 
- <div class="mt-4 text-center">
+ <div class="mt-4 text-center d-grid gap-2 d-md-block">
     <button class="learn-more-btn me-2 text-center">Learn More</button>
     <button class="callback-btn ">Request a Callback</button>
   </div>    
@@ -292,7 +293,7 @@
 <!-- end  -->
 
   <!-- EMI SECTION END -->
-   <section class="container-fluid pt-3 mt-5 pb-3"  style="background-color: #f1cc9822;">
+   <section class="container-fluid pt-3 mt-5 pb-3"  style="background-color: #f1cc9822;" id="Scholarships">
 <div class="container    programme-overview">
         
         <h2 class="text-center">Easy EMI & Scholarships</h2>
@@ -345,7 +346,8 @@
 
   </div>
 <div class="text-center">
-          <button class="explore-btn">Explore More</button>
+          <button class="explore-btn"  data-bs-toggle="modal" data-bs-target="#instantApplyModal"
+>Explore More</button>
 
 </div>
 </div>
@@ -413,10 +415,10 @@
         <p><strong>Program Material:</strong> All the learning resources are provided through our LMS, making it available 24x7 so you can learn/study on the go.</p>
         <p><strong>Networking Opportunity:</strong> Connect with various industry experts who share the same ambition of gaining the right knowledge. Interact with industry mentors & leaders.</p>
 
-        <div class="mt-4 d-flex gap-3 flex-wrap">
-          <button class="btn btn-yellow px-4 py-2">Request call back</button>
-          <button class="btn btn-whatsapp px-4 py-2">Whatsapp</button>
-        </div>
+      <div class="mt-4 d-grid gap-2 d-md-block">
+    <button class="learn-more-btn me-2 text-center">Learn More</button>
+    <button class="callback-btn ">Request a Callback</button>
+  </div>   
       </div>
 
       <!-- Right image -->
@@ -461,13 +463,14 @@ Online MBA Program</h2>
         </div>
       </div>
 
-      <button class="explore-btn">Explore More</button>
+      <button class="explore-btn"  data-bs-toggle="modal" data-bs-target="#instantApplyModal"
+>Explore More</button>
     </div>
   </section>
   <!-- askxcdbhc  -->
 
   <!-- card section -->
-  <section class="mb-5">
+  <section class="mb-5" id="Recognition">
 
     <div class="container programme-overview">
       <div class="row justify-content-center">
@@ -564,7 +567,7 @@ Online MBA Program</h2>
 <!-- end  -->
   <!-- new section  -->
 
- <section class="py-5 bg-white">
+ <section class="py-5 bg-white" id="lead">
     <div class="container-fluid programme-overview">
       
  <h2 class="text-center">Lead The Future With India's Top Ranked Online MBA</h2>
@@ -678,7 +681,7 @@ Online MBA Program</h2>
   </section>
 
   <!-- form section  -->
-  <section class="career-section p-3">
+  <section class="career-section p-3" id="Admission">
     <div class="container-fluid">
       <div class="row align-items-center gx-lg-5 gy-4">
 
@@ -827,7 +830,7 @@ Online MBA Program</h2>
 
               <div class="text-center mt-4">
                 <!-- <button type="submit" class="btn btn-download">Download Now</button> -->
-                      <button class="explore-btn">Download Now</button>
+                      <button class="explore-btn" >Download Now</button>
 
               </div>
             </form>
@@ -839,7 +842,7 @@ Online MBA Program</h2>
     <!-- new section  -->
   <!-- HEADER  -->
 
-
+ data-bs-toggle="modal" data-bs-target="#instantApplyModal"
 
   <!-- popup form  -->
 

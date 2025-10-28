@@ -64,7 +64,7 @@ body{
     max-width: 400px;
     width: 90%;
     /* Use percentage width */
-
+border-radius: 30px;
     /* Desktop Positioning */
     position: absolute;
     right: 5%;
@@ -1693,7 +1693,7 @@ background: linear-gradient(90deg, #F26722 0%, #FF7B00 100%);    }
     }
 
     .call-btn {
-      background-color: #ee368c;
+      background-color: #09696e;
     }
 
     .whatsapp-btn {
