@@ -1781,10 +1781,20 @@ background: linear-gradient(90deg, #F26722 0%, #FF7B00 100%);    }
    .contact-form .form-check-label {
       font-size: 14px;
       color: #ccc;
+   
     }
 
     @media (max-width: 768px) {
      .contact-form .modal-dialog {
         margin: 1rem;
       }
+      
     }
+      @media (max-width: 992px) {
+     .nav-item .nav-link{
+           font-size: 25px;
+    font-weight: bold;}
+    #nav-small{
+        justify-content: start !important;
+    }
+      }
