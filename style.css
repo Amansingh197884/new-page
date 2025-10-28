@@ -645,6 +645,7 @@ select {
     margin-top: 10px;
     margin-bottom: 15px;
     padding: 14px;
+    border-radius: 20px;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
 }
 
@@ -692,7 +693,7 @@ select {
 
 .accolades_section .rank_list .rank_list_text .rank_num {
     position: relative;
-    margin-bottom: 20px;
+    /* margin-bottom: 20px; */
     margin: auto;
     width: max-content;
     padding-left: 30px;
@@ -1043,7 +1044,7 @@ background: linear-gradient(90deg, #F26722 0%, #FF7B00 100%);    }
 
     .programme-overview p {
       max-width: 850px;
-      margin: 0 auto 50px;
+      margin: 0 auto 10px;
       font-size: 16px;
       color: #555;
     }
@@ -1658,3 +1659,52 @@ background: linear-gradient(90deg, #F26722 0%, #FF7B00 100%);    }
       .badge-top { padding: 6px 10px; font-size: 0.8rem; }
     }
    
+
+      .floating-buttons {
+      position: fixed;
+      bottom: 30px;
+      right: 20px;
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+      z-index: 999;
+      text-decoration: none;
+    }
+
+    .floating-btn {
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      font-size: 28px;
+      transition: all 0.3s ease;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    }
+
+    .floating-btn:hover {
+      transform: scale(1.1) rotate(10deg);
+      box-shadow: 0 6px 15px rgba(0,0,0,0.3);
+    }
+
+    .call-btn {
+      background-color: #ee368c;
+    }
+
+    .whatsapp-btn {
+      background-color: #25D366;
+    }
+
+    @media (max-width: 576px) {
+      .floating-btn {
+        width: 50px;
+        height: 50px;
+        font-size: 24px;
+      }
+      .floating-buttons {
+        bottom: 20px;
+        right: 20px;
+      }
+    }
