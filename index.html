@@ -788,64 +788,61 @@ Online MBA Program</h2>
        <!-- new popup  -->
     <!-- Modal -->
     <div class="modal fade popup-mod" id="brochureModal" tabindex="-1" aria-labelledby="brochureLabel" aria-hidden="true">
-      <div class="modal-dialog modal-lg modal-dialog-centered">
-        <div class="modal-content p-4">
-          <div class="modal-header border-0">
-            <h5 class="modal-title w-100 text-center fw-semibold" id="brochureLabel" style="color: #F26722;">
-              Please share your details to download the brochure
-            </h5>
-            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      <div class="modal-dialog modal-lg modal-dialog-centered contact-form">
+         <div class="modal-content">
+        <div class="row g-0">
+          <!-- Left Side Image -->
+          <div class="col-md-5 d-none d-md-block modal-edu-img">
+            <img src="https://img.freepik.com/free-photo/front-view-stacked-books-graduation-cap-ladders-education-day_23-2149241014.jpg?semt=ais_hybrid&w=740&q=80" alt="">
           </div>
 
-          <div class="modal-body">
-            <form>
-              <div class="row g-3">
-                <div class="col-md-4">
-                  <label for="fullName" class="form-label">Full name *</label>
-                  <input type="text" class="form-control" id="fullName" placeholder="Enter your full name" required>
-                </div>
-                <div class="col-md-4">
-                  <label for="email" class="form-label">Email address *</label>
-                  <input type="email" class="form-control" id="email" placeholder="Enter your email" required>
-                </div>
-                <div class="col-md-4">
-                  <label for="mobile" class="form-label">Mobile number *</label>
-                  <div class="input-group">
-                    <span class="input-group-text" style="height: 43px !important;">+91</span>
-                    <input type="tel" class="form-control" id="mobile" placeholder="Enter your  number" required>
+          <!-- Right Side Form -->
+          <div class="col-md-7 p-4">
+            <div class="modal-header border-0">
+              <h6 class="modal-title" id="educationModalLabel text-dark">Please Share Your details to download the  brochure</h5>
+              <button type="button" class="btn-close btn-close-dark" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+
+            <div class="modal-body">
+              <!-- <p class="text-dark">Please Share Your details to download the  brochure</p> -->
+
+              <form>
+                <div class="row">
+                  <div class="col-md-6 mb-3">
+                    <input type="text" class="form-control" placeholder="Full Name *" required>
+                  </div>
+                  <div class="col-md-6 mb-3">
+                    <input type="email" class="form-control" placeholder="Email Address *" required>
+                  </div>
+                  <div class="col-md-6 mb-3">
+                    <input type="tel" class="form-control" placeholder="Mobile Number *" required>
+                  </div>
+                  <div class="col-md-6 mb-3">
+                    <select class="form-select" required>
+                      <option value="">Select Course *</option>
+                      <option>BCA</option>
+                      <option>MCA</option>
+                      <option>BBA</option>
+                      <option>MBA</option>
+                      <option>BA</option>
+                      <option>MA</option>
+                    </select>
                   </div>
                 </div>
-              </div>
 
-              <div class="row mt-3">
-                <div class="col-md-12">
-                  <label for="course" class="form-label">Course *</label>
-                  <select class="form-select" id="course" required>
-                    <option selected disabled>Select course*</option>
-                    <option>BCA</option>
-                    <option>MBA</option>
-                    <option>MCA</option>
-                    <option>BBA</option>
-                  </select>
+                <div class="form-check mb-3">
+                  <input class="form-check-input" type="checkbox" id="consentCheck" checked>
+                  <label class="form-check-label text-dark" for="consentCheck">
+                    I authorize the university and its associates to contact me via Email, SMS, WhatsApp, and calls.
+                  </label>
                 </div>
-              </div>
 
-              <div class="form-check mt-3">
-                <input class="form-check-input" type="checkbox" id="authorize" checked>
-                <label class="form-check-label" for="authorize">
-                  I authorize Online Manipal and its associates to contact me with updates notifications via email, SMS,
-                  WhatsApp, and voice call. This consent will override any registration for DNC / NDNC.
-                </label>
-              </div>
-
-              <div class="text-center mt-4">
-                <!-- <button type="submit" class="btn btn-download">Download Now</button> -->
-                      <button class="explore-btn" >Download Now</button>
-
-              </div>
-            </form>
+                <button type="submit" class="btn-submit">Download Now</button>
+              </form>
+            </div>
           </div>
         </div>
+      </div>
       </div>
     </div>
 
@@ -895,7 +892,7 @@ Online MBA Program</h2>
               </select>
             </div>
 
-            <div class="mb-3">
+            <!-- <div class="mb-3">
               <select class="form-select p-2" aria-label="Select Highest Qualification" required
                 style="border-radius: 0 !important; color: rgba(3, 3, 3, 0.959) !important; border: 1.5px solid  rgba(151, 149, 149, 0.409) !important; ">
                 <option selected style="font-size: 15px !important;">Select Highest Qualification</option>
@@ -903,7 +900,7 @@ Online MBA Program</h2>
                 <option value="2">Post-Graduation</option>
                 <option value="3">HSC/12th</option>
               </select>
-            </div>
+            </div> -->
 
             <div class="mb-3 form-check">
               <input type="checkbox" class="form-check-input" id="communicationConsent" required>
@@ -1182,6 +1179,9 @@ Online MBA Program</h2>
       </div>
     </div>
   </div>
+
+
+  
 </body>
 
 </html>

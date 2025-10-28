@@ -1711,3 +1711,80 @@ background: linear-gradient(90deg, #F26722 0%, #FF7B00 100%);    }
         right: 20px;
       }
     }
+
+    /* new   */
+
+    
+    .contact-form .modal-content {
+      background-color: #ffffff;
+      /* color: #fff; */
+      border-radius: 12px;
+      overflow: hidden;
+      border: none;
+      box-shadow: 0 0 30px rgba(0,0,0,0.5);
+      animation: fadeInUp 0.6s ease;
+    }
+
+    @keyframes fadeInUp {
+      from {transform: translateY(30px); opacity: 0;}
+      to {transform: translateY(0); opacity: 1;}
+    }
+
+    
+   .contact-form .modal-edu-img {
+      background: url("https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&w=800&q=80") center/cover no-repeat;
+      min-height: 100%;
+    }
+
+    .contact-form .modal-edu-img img
+{
+       height: 385px;
+    width: 100%; 
+}
+   .contact-form .form-control, .form-select {
+      background: transparent !important;
+      border: none !important;
+      border-bottom: 1px solid #666 !important;
+      /* color: #fff !important; */
+      border-radius: 0 !important;
+      font-size: 15px !important;
+    }
+
+   .contact-form .form-control:focus, .form-select:focus{
+      border-bottom: 1px solid #F26722 !important;
+      box-shadow: none !important;
+      /* color: #fff !important; */
+    }
+
+   .contact-form .modal-title {
+      font-weight: 700;
+      font-size: 15px;
+      color: #000000;
+    }
+
+   .contact-form .btn-submit {
+      background-color: #F26722;
+      color: #111;
+      font-weight: 600;
+      border: none;
+      width: 100%;
+      padding: 12px;
+      border-radius: 8px;
+      transition: 0.3s;
+    }
+
+   .contact-form .btn-submit:hover {
+      background-color: #f26722dc;
+      transform: translateY(-2px);
+    }
+
+   .contact-form .form-check-label {
+      font-size: 14px;
+      color: #ccc;
+    }
+
+    @media (max-width: 768px) {
+     .contact-form .modal-dialog {
+        margin: 1rem;
+      }
+    }
