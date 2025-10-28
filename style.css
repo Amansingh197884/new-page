@@ -967,6 +967,11 @@ background: linear-gradient(90deg, #F26722 0%, #FF7B00 100%);    }
       color: #0d3b66;
       margin-bottom: 15px;
     }
+       .choose-section .feature-card:hover p{
+    
+      color: #fff;
+
+    }
      .choose-section .feature-card:hover i{
         color: #fff;
      }
