@@ -1668,7 +1668,10 @@ background: linear-gradient(90deg, #F26722 0%, #FF7B00 100%);    }
       flex-direction: column;
       gap: 15px;
       z-index: 999;
-      text-decoration: none;
+    }
+    .floating-buttons a{
+      text-decoration: none ;
+
     }
 
     .floating-btn {
